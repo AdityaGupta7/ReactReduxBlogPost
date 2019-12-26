@@ -1,0 +1,11 @@
+#post-card {
+    border-radius: 5px;
+    background-color: mediumorchid;
+    color: #fff;
+    margin-bottom: 3%;
+    padding: 2%;
+}
+
+#post-card:hover {
+    box-shadow: 5px 5px #333;
+}

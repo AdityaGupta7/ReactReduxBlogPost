@@ -1,0 +1,16 @@
+#main-header {
+    background-color: yellowgreen;
+    color: #fff;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#author {
+    font-size: 0.8em;
+    color: wheat;
+}
