@@ -35,7 +35,7 @@ class PostForm extends Component {
             <div>
                 <h2>Add a new Post</h2>
                 <h5>POST request to jsonplaceholder.typicode.com/posts</h5>
-                <h6>Redux helps in making new post available to the Post component</h6>
+                <h6>Redux helps in making new post available to the Post component (from this component)</h6>
                 <form onSubmit={this.onSubmit}>
                     <div id="title">
                         <label>Title: </label>

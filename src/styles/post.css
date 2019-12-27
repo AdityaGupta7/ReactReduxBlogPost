@@ -6,6 +6,10 @@
     padding: 2%;
 }
 
+#post-card span {
+    float: right;
+}
+
 #post-card:hover {
     box-shadow: 5px 5px #333;
 }
