@@ -1,15 +1,18 @@
 .App {
   margin: auto;
   width: 90%;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 2fr;
+  color: #edf5e1;
 }
 
 #box-1 {
-  flex: 1;
+  border-right: 1px solid #c3073f;
+  padding-right: 12px;
 }
 
 #box-2 {
-  flex: 2;
+  padding-left: 10px;
 }

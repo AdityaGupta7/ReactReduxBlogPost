@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export function fetchPosts () {
     return function (dispatch) {
-        axios.get('https://jsonplaceholder.typicode.com/posts')
+        axios.get('https://jsonplaceholder.typicode.com/posts?_limit=6')
             .then(posts =>
                 dispatch({
                     type: FETCH_POSTS,

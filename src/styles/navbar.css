@@ -1,6 +1,6 @@
 #main-header {
-    background-color: yellowgreen;
-    color: #fff;
+    background-color: inherit;
+    color: #c3073f;
 }
 
 .container {
@@ -10,7 +10,11 @@
     overflow: hidden;
 }
 
+#main-heading {
+    border-bottom: 5px dotted #c3073f;
+}
+
 #author {
     font-size: 0.8em;
-    color: wheat;
+    color: #e3e2df;
 }

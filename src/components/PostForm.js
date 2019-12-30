@@ -35,21 +35,21 @@ class PostForm extends Component {
             <div>
                 <h2>Add a new Post</h2>
                 <h5>POST request to jsonplaceholder.typicode.com/posts</h5>
-                <h6>Redux helps in making new post available to the Post component (from this component)</h6>
+                <h5>Redux helps in making new post available to the Post component (on the right) from this component</h5>
                 <form onSubmit={this.onSubmit}>
                     <div id="title">
-                        <label>Title: </label>
+                        <label>Title</label>
                         <br />
                         <input type="text" name="title" onChange={this.onChange} value={this.state.title} />
                     </div>
                     <br />
                     <div id="body">
-                        <label>Post Body: </label>
+                        <label>Post Body</label>
                         <br />
                         <textarea name="body" onChange={this.onChange} value={this.state.body} />
                     </div>
                     <br />
-                    <button type="submit">Add Post!</button>
+                    <button type="submit">Add Post</button>
                 </form>
             </div>
         )

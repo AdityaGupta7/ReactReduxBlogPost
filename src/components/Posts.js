@@ -27,7 +27,7 @@ class Posts extends Component {
             <div>
                 <h1>Posts</h1>
                 <h5>GET request to jsonplaceholder.typicode.com/posts</h5>
-                <div>
+                <div id="post-wrapper">
                     {postItems}
                 </div>
             </div>

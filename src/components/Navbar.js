@@ -6,7 +6,7 @@ class Navbar extends Component {
         return (
             <header id="main-header">
                 <div className="container">
-                    <h2>React-Redux BlogPost <span id="author">by Aditya Gupta</span></h2>
+                    <h2><span id="main-heading">React-Redux BlogPost</span> <span id="author">by Aditya Gupta</span></h2>
                 </div>
             </header>
         );
